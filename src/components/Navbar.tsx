@@ -27,7 +27,6 @@ export const Navbar = () => {
               <Link
                 key={item.name}
                 to={item.path}
-                // UPDATED: Changed 'bg-primary' to 'bg-black text-white'
                 className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all ${
                   isActive
                     ? "bg-black text-white shadow-md"
@@ -45,7 +44,7 @@ export const Navbar = () => {
             className="ml-2 gap-2 rounded-full"
             asChild
           >
-            <a href="/cv.pdf" download>
+            <a href="/CVMohamed_Ighijjou.pdf" download>
               <Download className="w-4 h-4" />
               <span className="hidden sm:inline">Resume</span>
             </a>
