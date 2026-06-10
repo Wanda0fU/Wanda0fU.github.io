@@ -44,7 +44,7 @@ export const Navbar = () => {
             className="ml-2 gap-2 rounded-full"
             asChild
           >
-            <a href="/CVMohamed_Ighijjou.pdf" download>
+            <a href="/CVMohamed_Ighijjou.pdf" download="CVMohamed_Ighijjou.pdf">
               <Download className="w-4 h-4" />
               <span className="hidden sm:inline">Resume</span>
             </a>
